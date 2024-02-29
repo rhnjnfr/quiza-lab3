@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+.content-style{
+    margin: 12rem;
+    display: flex;
+    justify-content:space-around;
+}
+
+.month-container{
+    border: 2px solid;
+    padding: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-top: solid red;
+    border-bottom: solid yellow;
+    border-left: dashed;
+    border-right: double;
+    
+}
+
+.animals-container{
+    border: 5px solid;
+    padding: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-top: solid blue;
+    border-bottom: solid orange;
+    border-left: double;
+    border-right: dashed;
+}
+
+.country-container{
+    border: 5px solid;
+    padding: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-top: solid green;
+    border-bottom: solid brown;
+    border-left: dotted;
+    border-right: dashed;
+}
+
+.food-container{
+    border: 5px solid;
+    padding: 3rem;
+    width: 7rem;
+    height: 7rem;
+    border-top: solid olive;
+    border-bottom: solid skyblue;
+    border-left: dashed;
+    border-right: dotted;
+}
